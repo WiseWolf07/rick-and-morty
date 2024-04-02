@@ -10,12 +10,15 @@
 
 h1{
     margin: 0 0 10px 0;
+    text-align: center;
+    font-size: 2rem;
 }
 
 h2{
     text-align: center;
     margin: 0px auto 20px auto;
     font-weight: 800;
+    font-size: 1.5rem;
 }
 
 .flex-container{
@@ -53,10 +56,35 @@ li{
     color: #FFF;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
+    font-size: 1rem;
 }
 
 span{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
+}
+
+@media (max-width: 864px){
+    .card{
+        width: 50%;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    li{
+        font-size: 0.9rem;
+    
+    }
+}
+
+@media (max-width: 588px){
+    .card{
+        width: 100%;
+        
+    }
+    
 }
