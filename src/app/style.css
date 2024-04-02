@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h1{
+    margin: 0 0 10px 0;
+}
+
+h2{
+    text-align: center;
+    margin: 0px auto 20px auto;
+    font-weight: 800;
+}
+
+.flex-container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    background-color: #000;
+    box-shadow: #FFF 0px 0px 10px;
+    width: 25%;
+    margin: 20px;
+    padding: 20px;
+    transition: transform 1s;
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: #FFF 0px 0px 20px;
+    transform: translateY(5px);
+}
+
+img{
+    width: 100%;    
+    height: auto;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px 0 10px 0;
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+span{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+}
